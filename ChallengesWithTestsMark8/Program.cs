@@ -6,7 +6,13 @@ namespace ChallengesWithTestsMark8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
+            int[] numbers = { 1, 2, 3, 4 };
+            ChallengesSet04 num = new ChallengesSet04();
+            num.AddEvenSubtractOdd(numbers);
+
+
+            
+            Console.WriteLine(num);
         }
     }
 }
