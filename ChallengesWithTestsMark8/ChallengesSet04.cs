@@ -70,5 +70,7 @@ namespace ChallengesWithTestsMark8
 			}
             return number * Factorial(number - 1);
         }
+
+
     }
 }
