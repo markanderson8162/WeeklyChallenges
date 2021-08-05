@@ -67,11 +67,11 @@ namespace ChallengesWithTestsMark8
 				}
             }
 
+            return sum;
             if(numbers == null)
 			{
                 return 0;
 			}
-            return sum;
         }
 
         public string TurnWordsIntoSentence(string[] words)
